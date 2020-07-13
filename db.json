@@ -1,14 +1,14 @@
 {
-    "posts": [
-        {
-            "id": 1,
-            "title": "Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",
-            "body": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.\n\nInteger",
-            "url": "https://forbes.com/elit/proin/interdum/mauris/non.html",
-            "image": "http://dummyimage.com/500x500.bmp/5fa2dd/ffffff"
-        }
-    ],
-    "profile": {
-        "name": "typicode"
-    }
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
